@@ -386,6 +386,23 @@
     pako "^2.0.4"
     tslib "^2.1.0"
 
+"@wharfkit/session@^0.3.0-ui-3":
+  version "0.3.0-ui-3"
+  resolved "https://registry.yarnpkg.com/@wharfkit/session/-/session-0.3.0-ui-3.tgz#ba08df320f1bbb11f56ddcf003a891614cd3867f"
+  integrity sha512-Cnp9MaBoX6t6AofLjbnknJsclpRDlt5alrcJbPJfE5Xy2b9UNbqfmS/ZOVzCcEYq9aI/B7BsVS/mlOtmoK7jUg==
+  dependencies:
+    "@greymass/eosio" "^0.6.4"
+    eosio-signing-request "^2.5.2"
+    pako "^2.0.4"
+    tslib "^2.1.0"
+
+"@wharfkit/web@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@wharfkit/web/-/web-0.0.1.tgz#ff9a21bdb9bf90b02e33bd4fcf13041a09e903db"
+  integrity sha512-qWPseHG+0LI6ezPMbb8q1RFEvssnf8UaSEoNZr6jZ7HhqvP8ShdWtMxTk+8TrwFj8w2p6OmSz+PymIUTefgzEA==
+  dependencies:
+    "@wharfkit/session" "^0.3.0-ui-3"
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"

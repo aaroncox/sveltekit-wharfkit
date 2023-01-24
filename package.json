@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@wharfkit/session": "^0.3.0-ui-2"
+		"@wharfkit/session": "^0.3.0-ui-2",
+		"@wharfkit/web": "^0.0.1"
 	}
 }
